@@ -1,0 +1,10 @@
+
+You are tasked with generating events in the given video segments based on a series of consecutive image frames and corresponding keywords.
+The given video is [$label] events. Please generate [$num] distinct [$label] events based on the input video frames.
+
+normal_keywords = ["navigating", "road", "passing", "vehicles", "storefronts", "sidewalk", "pedestrians", "intersection", "retail area", "fire truck", "driving", "cars", "green area"]
+abnormal_keywords = ["swerves", "swerving", "narrowly misses", "narrowly missing", "pedestrian", "debris", "lost control", "sudden", "vehicle", "highway", "scatters debris", "miss collision site", "avoid", "scatter debris", "miss pedestrian", "miss car", "miss parking area", "miss highway", "miss intersection", "miss pedestrian cross", "miss another vehicle"]
+
+Output events in the following format, make sure to generate events that are clear and contextually relevant to the video content:
+[$desc_list]
+Please strictly follow the format, DO NOT OUTPUT ANYTHING ELSE EXCEPT EVENTS DESCRIPTION.
