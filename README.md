@@ -9,8 +9,8 @@ The current workflow contains several manual steps, including manually updating 
 Create and activate the Conda environment:
 
 ```bash
-conda create -n VAD python=3.10
-conda activate VAD
+conda create -n SPARK_VAD python=3.10
+conda activate SPARK_VAD
 ```
 
 Install the required packages:
