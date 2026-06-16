@@ -400,3 +400,13 @@ python test.py
 - The selected high-quality events should be manually copied into `update_instruction.py`.
 - The generated keywords from `update_instruction.py` should be manually copied into `VERA_optimizer_instruct_2.txt` for the next epoch.
 - Before running the code, replace `/root/autodl-tmp/VAD` with your own local path.
+
+
+## TODO List
+
+- [ ] Replace hard-coded paths with configurable arguments or a unified configuration file.
+- [ ] Add command-line arguments for dataset name, model path, feature directory, annotation files, and output paths.
+- [ ] Automate epoch-level file naming and output management, such as `ep1`, `ep2`, and `ep3`.
+- [ ] Reduce manual copy-and-paste operations by automatically passing generated events, scoring results, selected events, and updated keywords between scripts.
+- [ ] Save intermediate outputs, including generated events, event scores, filtered event sets, and keywords, in structured files such as `.json`.
+- [ ] Integrate `training.py`, `train_after.py`, `sort_and_filter.py`, and `update_instruction.py` into a unified epoch-level pipeline.
