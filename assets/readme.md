@@ -4,7 +4,7 @@ SPARK uses the MLLM as an offline **semantic planner** rather than a costly test
 During semantic planning, high-confidence normal and abnormal event prototypes are summarized into class-specific keyword priors, which are then fed back to guide the next round of event generation.
 
 <p align="center">
-  <img src="Keywords.png" alt="Keyword evolution during semantic planning" width="95%">
+  <img src="keywords.png" alt="Keyword evolution during semantic planning" width="95%">
 </p>
 
 <p align="center">
