@@ -1,18 +1,9 @@
 ## Semantic Planning Visualization
 
-SPARK uses the MLLM as an offline **semantic planner** rather than a costly test-time judge.  
-During semantic planning, high-confidence normal and abnormal event prototypes are summarized into class-specific keyword priors, which are then fed back to guide the next round of event generation.
+SPARK uses the MLLM as an offline **semantic planner** rather than a costly test-time judge. During semantic planning, high-confidence normal and abnormal event prototypes are summarized into class-specific keyword priors, which are then fed back to guide the next round of event generation.
 
-<p align="center">
-  <img src="keyword.png" alt="Keyword evolution during semantic planning" width="95%">
-</p>
+This keyword evolution process progressively sharpens the semantic event space. Normal keywords gradually evolve toward **smooth and orderly traffic-flow semantics**, while abnormal keywords become increasingly associated with **risk, obstruction, collision, and accident-related events**. This indicates that SPARK does not rely on fixed hand-crafted prompts, but instead builds a scene-conditioned semantic prior through iterative planning.
 
-<p align="center">
-  <em>
-    Keyword evolution during semantic planning. Normal keywords gradually evolve toward smooth and orderly traffic-flow semantics, 
-    while abnormal keywords become increasingly associated with risk, obstruction, collision, and accident-related events.
-  </em>
-</p>
 
 ### What does the evolution show?
 
