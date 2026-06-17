@@ -1,3 +1,6 @@
+![](assets/logo.png)
+
+
 # Video Anomaly Detection Code Usage
 
 This repository provides a multi-stage pipeline for generating, scoring, filtering, and evaluating normal/abnormal event descriptions for video anomaly detection.
